@@ -1,0 +1,196 @@
+:root {
+    --color-green: #39522a;
+    --color-red: rgb(98, 0, 0);
+
+}
+
+.header {
+    width: 1280px;
+    height: 130px;
+    position: relative;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.Halo{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+.Perkenalan{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+.PengertianKerjasama{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+
+
+/* Kode CSS Navigator */
+ul {
+    list-style: none;
+    background: rgb(42, 90, 118);
+    position: relative;
+    width: 1280px;
+    height: 60px;
+
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul a:hover {
+    background-color: rgb(215, 255, 223);
+}
+
+/* Kode CSS Dropdown */
+ul li ul.dropdown {
+    background: rgb(83, 153, 170);
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    z-index: 999;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+.column.side{
+    margin:20px 20px;
+    width: 20%;
+    background-color:#3C552D;
+    position: absolute;
+    right: 10px;
+    padding:  5px 5px 5px 5px;
+}
+
+.column.middle{
+    width: 950px;
+    margin: 0px;
+}
+
+.footer {
+    width: 1280px;
+    position: relative;
+    bottom: 0;
+}
+
+/*Isi konten Kerjasama Bilateral*/
+.KerjasamaBilateral{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+.KerjasamaBilateral1{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+.KerjasamaMultilateral{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+.KerjasamaMultilateral1{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+.KerjasamaMultilateral2{
+font-size: larger;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+text-align: justify;
+margin: 0px 0px 0px 20px;
+}
+
+.KerjasamaRegional{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+.KerjasamaRegional1{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+.PengertianSDGs{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+.TujuanSDGs{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+.TujuanSDGs1{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+.Kesimpulan{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    margin: 0px 0px 0px 20px;
+}
+
+.DaftarPustaka{
+    padding: 20px 20px 20px 20px;
+}
+
